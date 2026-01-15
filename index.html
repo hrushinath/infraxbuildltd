@@ -15,7 +15,21 @@
         <nav class="navbar">
             <div class="container">
                 <div class="logo">
-                    <h2>INFRAX BUILD LTD</h2>
+                    <svg class="logo-icon" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Construction building icon -->
+                        <rect x="5" y="35" width="40" height="10" fill="#ff6b35" rx="1"/>
+                        <rect x="10" y="25" width="30" height="10" fill="#004e89" rx="1"/>
+                        <rect x="15" y="15" width="20" height="10" fill="#ff6b35" rx="1"/>
+                        <rect x="20" y="5" width="10" height="10" fill="#004e89" rx="1"/>
+                        <!-- Construction crane element -->
+                        <line x1="38" y1="15" x2="38" y2="35" stroke="#ff6b35" stroke-width="2"/>
+                        <line x1="38" y1="15" x2="48" y2="15" stroke="#ff6b35" stroke-width="2"/>
+                        <circle cx="38" cy="35" r="2" fill="#004e89"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-main">INFRAX</span>
+                        <span class="logo-sub">BUILD LTD</span>
+                    </div>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="#home">Home</a></li>
@@ -50,81 +64,128 @@
                 <h2>About Us</h2>
                 <div class="underline"></div>
             </div>
-            <div class="about-content">
-                <p>Welcome to <strong>Infrax Build Ltd</strong> — your reliable partner for high-quality residential construction and improvement services. From small-scale construction projects to full home renovations, we bring your vision to life with professionalism and care.</p>
-                <p>With years of experience in the construction industry, we pride ourselves on delivering exceptional craftsmanship, attention to detail, and personalized service tailored to your unique needs.</p>
+            <div class="about-layout">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=85" alt="Construction Site">
+                </div>
+                <div class="about-content">
+                    <p>Welcome to <strong>Infrax Build Ltd</strong> — your reliable partner for high-quality residential construction and improvement services. From small-scale construction projects to full home renovations, we bring your vision to life with professionalism and care.</p>
+                    <p>With years of experience in the construction industry, we pride ourselves on delivering exceptional craftsmanship, attention to detail, and personalized service tailored to your unique needs.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Detailed Services Section -->
+    <section id="services" class="services-detailed">
         <div class="container">
             <div class="section-header">
                 <h2>Our Services</h2>
                 <div class="underline"></div>
-                <p class="section-subtitle">We offer a wide range of construction and related services</p>
+                <p class="section-subtitle">Comprehensive construction solutions tailored to UK homes</p>
             </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🏗️</div>
+
+            <div class="service-detailed-grid">
+                <!-- Service 1 -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-icon">🏗️</div>
                     <h3>Small-Scale Construction Projects</h3>
-                    <p>Quality construction for residential projects of all sizes</p>
+                    <p class="service-intro">From garden offices to garage conversions, we handle all small-scale construction with precision.</p>
+                    <ul class="service-features">
+                        <li>✓ Garden rooms and annexes</li>
+                        <li>✓ Garage conversions</li>
+                        <li>✓ Outbuildings and workshops</li>
+                        <li>✓ Full planning and building control support</li>
+                    </ul>
+                    <div class="service-details">
+                        <span class="service-duration">⏱ Timeline: 2-8 weeks</span>
+                        <span class="service-warranty">🛡️ 10-year warranty</span>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">🏠</div>
+
+                <!-- Service 2 -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-icon">🏠</div>
                     <h3>Home Renovations & Refurbishments</h3>
-                    <p>Transform your existing space into your dream home</p>
+                    <p class="service-intro">Complete home transformations that breathe new life into your property.</p>
+                    <ul class="service-features">
+                        <li>✓ Full house refurbishment</li>
+                        <li>✓ Period property restoration</li>
+                        <li>✓ Modern upgrades and improvements</li>
+                        <li>✓ Energy efficiency enhancements</li>
+                    </ul>
+                    <div class="service-details">
+                        <span class="service-duration">⏱ Timeline: 4-12 weeks</span>
+                        <span class="service-warranty">🛡️ Comprehensive warranty</span>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">📐</div>
+
+                <!-- Service 3 -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-icon">📐</div>
                     <h3>Custom AutoCAD Drawing & Design</h3>
-                    <p>Professional drafting and detailed architectural plans</p>
+                    <p class="service-intro">Professional architectural drawings that bring your vision to paper.</p>
+                    <ul class="service-features">
+                        <li>✓ 2D and 3D CAD drawings</li>
+                        <li>✓ Building regulations drawings</li>
+                        <li>✓ Planning application support</li>
+                        <li>✓ Structural calculations coordination</li>
+                    </ul>
+                    <div class="service-details">
+                        <span class="service-duration">⏱ Timeline: 1-3 weeks</span>
+                        <span class="service-warranty">🛡️ Revision guarantee</span>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">🏚️</div>
+
+                <!-- Service 4 -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-icon">🏚️</div>
                     <h3>Roofing & Roof Repairs</h3>
-                    <p>Expert roofing solutions and maintenance services</p>
+                    <p class="service-intro">Expert roofing services designed for UK weather conditions.</p>
+                    <ul class="service-features">
+                        <li>✓ New roof installations</li>
+                        <li>✓ Re-roofing and repairs</li>
+                        <li>✓ Flat roof specialists</li>
+                        <li>✓ Guttering and fascias</li>
+                    </ul>
+                    <div class="service-details">
+                        <span class="service-duration">⏱ Timeline: 1-4 weeks</span>
+                        <span class="service-warranty">🛡️ 15-year guarantee</span>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">🍳</div>
+
+                <!-- Service 5 -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-icon">🍳</div>
                     <h3>Kitchen Extensions & Upgrades</h3>
-                    <p>Modern kitchen designs and functional expansions</p>
+                    <p class="service-intro">Create the heart of your home with bespoke kitchen solutions.</p>
+                    <ul class="service-features">
+                        <li>✓ Kitchen extensions</li>
+                        <li>✓ Complete kitchen fit-outs</li>
+                        <li>✓ Kitchen-diner conversions</li>
+                        <li>✓ Modern appliance integration</li>
+                    </ul>
+                    <div class="service-details">
+                        <span class="service-duration">⏱ Timeline: 3-8 weeks</span>
+                        <span class="service-warranty">🛡️ Full workmanship warranty</span>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">🏡</div>
+
+                <!-- Service 6 -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-icon">🏡</div>
                     <h3>Loft Extensions & Conversions</h3>
-                    <p>Maximize your home's potential with loft conversions</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🚪</div>
-                    <h3>Room Partitions & Interior Fit-outs</h3>
-                    <p>Custom interior solutions for better space utilization</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🔨</div>
-                    <h3>Structural Modifications & Additions</h3>
-                    <p>Safe and compliant structural alterations</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📏</div>
-                    <h3>Floor & Ceiling Works</h3>
-                    <p>Professional flooring and ceiling installations</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🛁</div>
-                    <h3>Bathroom Renovations</h3>
-                    <p>Beautiful and functional bathroom upgrades</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🧱</div>
-                    <h3>Civil & Masonry Works</h3>
-                    <p>Expert masonry and civil construction services</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📋</div>
-                    <h3>Drafting, Plans & Working Drawings</h3>
-                    <p>Detailed technical drawings and project documentation</p>
+                    <p class="service-intro">Add valuable living space without extending your home's footprint.</p>
+                    <ul class="service-features">
+                        <li>✓ Dormer loft conversions</li>
+                        <li>✓ Velux conversions</li>
+                        <li>✓ Hip-to-gable conversions</li>
+                        <li>✓ Loft bedrooms with en-suites</li>
+                    </ul>
+                    <div class="service-details">
+                        <span class="service-duration">⏱ Timeline: 6-10 weeks</span>
+                        <span class="service-warranty">🛡️ Structural warranty included</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,27 +197,236 @@
             <div class="section-header">
                 <h2>Why Choose Us</h2>
                 <div class="underline"></div>
+                <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.9);">What sets Infrax Build Ltd apart from other construction companies</p>
             </div>
+            
+            <div class="why-choose-intro">
+                <p>Choosing the right construction partner is crucial for your home improvement project. At Infrax Build Ltd, we combine technical expertise, local knowledge, and unwavering commitment to quality to deliver results that exceed expectations. Here's why homeowners across Nottingham trust us with their most important projects:</p>
+            </div>
+
             <div class="features-grid">
                 <div class="feature-item">
                     <div class="feature-icon">✔</div>
                     <h3>Professional and Reliable Team</h3>
-                    <p>Experienced professionals committed to excellence</p>
+                    <p>Our team consists of experienced, fully-qualified tradespeople who bring decades of combined expertise to every project. We're punctual, respectful of your property, and dedicated to delivering exceptional craftsmanship on every job, no matter the size.</p>
                 </div>
                 <div class="feature-item">
                     <div class="feature-icon">✔</div>
                     <h3>Detailed AutoCAD Plans</h3>
-                    <p>Accurate drawings and professional designs</p>
+                    <p>We provide comprehensive, professional AutoCAD drawings that bring clarity to your project. Our detailed plans help you visualize the end result, satisfy building control requirements, and ensure everyone is aligned from the start.</p>
                 </div>
                 <div class="feature-item">
                     <div class="feature-icon">✔</div>
                     <h3>Clear Pricing & Free Consultations</h3>
-                    <p>Transparent quotes with no hidden costs</p>
+                    <p>No surprises, no hidden costs. We offer free initial consultations and provide transparent, itemized quotes that break down all costs. You'll know exactly what you're paying for before any work begins.</p>
                 </div>
                 <div class="feature-item">
                     <div class="feature-icon">✔</div>
                     <h3>Quality and Safety</h3>
-                    <p>Attention to detail with strict safety standards</p>
+                    <p>We never compromise on quality or safety. All work complies with UK building regulations and safety standards. We use premium materials sourced from trusted UK suppliers and maintain rigorous quality checks throughout the construction process.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✔</div>
+                    <h3>Local Nottingham Expertise</h3>
+                    <p>As a Nottingham-based company, we understand local building regulations, council requirements, and the unique characteristics of homes in the area. Our local knowledge helps us navigate approvals faster and deliver better results.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✔</div>
+                    <h3>Comprehensive Insurance & Warranties</h3>
+                    <p>We're fully insured with public liability coverage, giving you complete peace of mind. All our work comes with comprehensive warranties - up to 10 years on structural work - protecting your investment for years to come.</p>
+                </div>
+            </div>
+
+            <div class="why-choose-cta">
+                <h3>Ready to Experience the Infrax Difference?</h3>
+                <p>Join hundreds of satisfied homeowners who've trusted us with their construction and renovation projects.</p>
+                <button class="cta-button" onclick="scrollToContact()">Get Your Free Consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews & Testimonials Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our UK Clients Say</h2>
+                <div class="underline"></div>
+                <p class="section-subtitle">Don't just take our word for it - hear from homeowners across Nottingham</p>
+            </div>
+
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <div class="trust-rating">⭐⭐⭐⭐</div>
+                    <div class="trust-text">4.0 Average Rating</div>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-number">10+</div>
+                    <div class="trust-text">Projects Completed</div>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-number">95%</div>
+                    <div class="trust-text">Client Satisfaction</div>
+                </div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <div class="testimonial-date">November 2025</div>
+                    </div>
+                    <p class="testimonial-text">"Infrax Build transformed our Victorian terrace with a stunning loft conversion. The team was professional, punctual, and respectful of our home. They navigated all the building regulations seamlessly. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah & James Mitchell</strong>
+                        <span>Nottingham, NG7</span>
+                    </div>
+                    <div class="testimonial-project">Loft Conversion Project</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <div class="testimonial-date">October 2025</div>
+                    </div>
+                    <p class="testimonial-text">"We needed a kitchen extension and Infrax delivered beyond our expectations. The AutoCAD drawings were detailed, and the build quality is exceptional. They completed on time and on budget. Couldn't be happier!"</p>
+                    <div class="testimonial-author">
+                        <strong>David Thompson</strong>
+                        <span>West Bridgford, NG2</span>
+                    </div>
+                    <div class="testimonial-project">Kitchen Extension</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <div class="testimonial-date">September 2025</div>
+                    </div>
+                    <p class="testimonial-text">"After storm damage to our roof, Infrax came to the rescue. They provided a competitive quote, used quality UK materials, and the work was completed quickly. The new roof looks fantastic and has already weathered several heavy rains perfectly."</p>
+                    <div class="testimonial-author">
+                        <strong>Emma Roberts</strong>
+                        <span>Beeston, NG9</span>
+                    </div>
+                    <div class="testimonial-project">Roof Replacement</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <div class="testimonial-date">August 2025</div>
+                    </div>
+                    <p class="testimonial-text">"Full house refurbishment handled with care and expertise. The team respected our period features while modernizing the entire property. Communication was excellent throughout. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <strong>Mr. & Mrs. Patel</strong>
+                        <span>Mapperley, NG3</span>
+                    </div>
+                    <div class="testimonial-project">Full Home Refurbishment</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <div class="testimonial-date">July 2025</div>
+                    </div>
+                    <p class="testimonial-text">"Infrax converted our garage into a beautiful home office. The project included proper insulation for UK weather and all necessary electrics. They handled everything from planning permission to final touches. Brilliant service!"</p>
+                    <div class="testimonial-author">
+                        <strong>Michael Chen</strong>
+                        <span>Carlton, NG4</span>
+                    </div>
+                    <div class="testimonial-project">Garage Conversion</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">⭐⭐⭐⭐</div>
+                        <div class="testimonial-date">June 2025</div>
+                    </div>
+                    <p class="testimonial-text">"As first-time renovators, we were nervous, but Infrax made the bathroom renovation process smooth and stress-free. They explained everything clearly, stuck to the timeline, and the finish is immaculate. Definitely using them again!"</p>
+                    <div class="testimonial-author">
+                        <strong>Lucy and Tom Harrison</strong>
+                        <span>Arnold, NG5</span>
+                    </div>
+                    <div class="testimonial-project">Bathroom Renovation</div>
+                </div>
+            </div>
+
+            <div class="review-cta">
+                <p>Join our growing list of satisfied clients across Nottingham and surrounding areas</p>
+                <button class="cta-button" onclick="scrollToContact()">Start Your Project Today</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <div class="underline"></div>
+                <p class="section-subtitle">From first contact to project completion - here's what to expect</p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Initial Consultation</h3>
+                        <p>Contact us via phone, email, or our online form. We'll arrange a free, no-obligation consultation to discuss your project, understand your vision, and assess the site.</p>
+                        <div class="step-duration">Duration: 30-60 minutes</div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Design & Planning</h3>
+                        <p>Our team creates detailed AutoCAD drawings and plans. We'll help you navigate planning permission and building regulations, ensuring everything is compliant with UK standards.</p>
+                        <div class="step-duration">Duration: 1-3 weeks</div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Detailed Quote</h3>
+                        <p>Receive a comprehensive, transparent quote with no hidden costs. We'll break down materials, labour, and timelines so you know exactly what to expect.</p>
+                        <div class="step-duration">Duration: 3-5 days</div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Project Kickoff</h3>
+                        <p>Once you approve the quote, we'll schedule the work around your convenience. We'll prepare the site, protect your property, and introduce you to your dedicated project manager.</p>
+                        <div class="step-duration">Duration: 1 week</div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Construction Phase</h3>
+                        <p>Our skilled team gets to work with regular progress updates. We maintain a clean, safe workspace and are always available to answer questions. All work is carried out to the highest UK building standards.</p>
+                        <div class="step-duration">Duration: Varies by project</div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Final Inspection & Handover</h3>
+                        <p>We conduct a thorough walkthrough with you to ensure every detail meets your expectations. All necessary certifications and warranties are provided before final payment.</p>
+                        <div class="step-duration">Duration: 1-2 days</div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">7</div>
+                    <div class="step-content">
+                        <h3>Aftercare Support</h3>
+                        <p>Our relationship doesn't end at completion. We provide comprehensive aftercare support and honor all warranties. Your satisfaction is our priority.</p>
+                        <div class="step-duration">Ongoing</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -204,7 +474,7 @@
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80');">
+                    <div class="portfolio-image" style="background-image: url('images/Room Partition Project.jpg');">
                     </div>
                     <div class="portfolio-caption">
                         <h3>Room Partition Project</h3>
@@ -212,13 +482,151 @@
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80');">
+                    <div class="portfolio-image" style="background-image: url('images/FullHomeRefurbishment.jpg');">
                     </div>
                     <div class="portfolio-caption">
                         <h3>Full Home Refurbishment</h3>
                         <p>Complete renovation and modernization</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faqs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <div class="underline"></div>
+                <p class="section-subtitle">Everything UK homeowners need to know about working with us</p>
+            </div>
+
+            <div class="faqs-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are you registered and insured in the UK?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, Infrax Build Ltd is a fully registered UK company with comprehensive public liability insurance. We comply with all UK construction regulations and hold relevant certifications for the work we undertake.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you help with planning permission and building regulations?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We guide you through the entire process. We prepare detailed drawings for planning applications and building control, liaise with local authorities, and ensure all work complies with UK building regulations.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How much does a typical project cost?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Costs vary depending on project scope. A small bathroom renovation might start from £5,000, while a full loft conversion could range from £25,000-£50,000. We provide detailed, transparent quotes after our free consultation so you know exactly what to expect.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long will my project take?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Timelines depend on the project: bathroom renovations (2-3 weeks), kitchen extensions (6-8 weeks), loft conversions (6-10 weeks). We provide realistic timescales upfront and keep you updated throughout.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What areas do you cover?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're based in Nottingham and primarily serve the East Midlands region, including Nottingham, Derby, Leicester, and surrounding areas. For larger projects, we're happy to discuss travel to other parts of the UK.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you use UK-sourced materials?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we prioritize working with reputable UK suppliers to ensure quality and support local businesses. All materials meet British Standards and are suitable for UK climate conditions.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I live in my home during the renovation?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For most projects, yes! We minimize disruption, contain work areas with dust screens, and maintain safe access routes. For extensive whole-house refurbishments, temporary accommodation might be recommended.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What payment terms do you offer?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We typically work on a stage payment basis: deposit to secure the start date, interim payments at key milestones, and final payment upon completion. We never demand full payment upfront.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer warranties on your work?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all our work comes with comprehensive warranties. Structural work typically carries a 10-year warranty, while other work has a minimum 2-year guarantee. We also provide manufacturer warranties for materials and fittings.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What if I want to make changes mid-project?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We understand that visions evolve! We're flexible and can accommodate changes. We'll discuss the impact on cost and timeline, provide updated quotes, and proceed once you're happy to continue.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do you handle waste and recycling?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're committed to environmentally responsible practices. We arrange proper waste disposal, recycle where possible, and hold the necessary waste carrier licenses. All disposal costs are included in our quotes.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you work during winter months?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! While some external work may be weather-dependent, we work year-round. For internal projects, seasons don't affect our schedule. We plan around UK weather patterns to minimize delays.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-cta">
+                <p>Still have questions? We're here to help!</p>
+                <button class="cta-button" onclick="scrollToContact()">Get in Touch</button>
             </div>
         </div>
     </section>
@@ -280,7 +688,23 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>INFRAX BUILD LTD</h3>
+                    <div class="footer-logo">
+                        <svg class="footer-logo-icon" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Construction building icon -->
+                            <rect x="5" y="35" width="40" height="10" fill="#ff6b35" rx="1"/>
+                            <rect x="10" y="25" width="30" height="10" fill="#ffffff" rx="1"/>
+                            <rect x="15" y="15" width="20" height="10" fill="#ff6b35" rx="1"/>
+                            <rect x="20" y="5" width="10" height="10" fill="#ffffff" rx="1"/>
+                            <!-- Construction crane element -->
+                            <line x1="38" y1="15" x2="38" y2="35" stroke="#ff6b35" stroke-width="2"/>
+                            <line x1="38" y1="15" x2="48" y2="15" stroke="#ff6b35" stroke-width="2"/>
+                            <circle cx="38" cy="35" r="2" fill="#ffffff"/>
+                        </svg>
+                        <div class="footer-logo-text">
+                            <span class="footer-logo-main">INFRAX</span>
+                            <span class="footer-logo-sub">BUILD LTD</span>
+                        </div>
+                    </div>
                     <p>Your trusted partner for quality construction and renovation services.</p>
                 </div>
                 <div class="footer-section">
