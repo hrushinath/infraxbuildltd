@@ -2,38 +2,6 @@ const Testimonials = () => {
   const testimonials = [
     {
       rating: 5,
-      date: 'November 2025',
-      text: 'Infrax Build transformed our Victorian terrace with a stunning loft conversion. The team was professional, punctual, and respectful of our home. They navigated all the building regulations seamlessly. Highly recommend!',
-      author: 'Sarah & James Mitchell',
-      location: 'Nottingham, NG7',
-      project: 'Loft Conversion Project'
-    },
-    {
-      rating: 5,
-      date: 'October 2025',
-      text: 'We needed a kitchen extension and Infrax delivered beyond our expectations. The AutoCAD drawings were detailed, and the build quality is exceptional. They completed on time and on budget. Couldn\'t be happier!',
-      author: 'David Thompson',
-      location: 'West Bridgford, NG2',
-      project: 'Kitchen Extension'
-    },
-    {
-      rating: 5,
-      date: 'September 2025',
-      text: 'After storm damage to our roof, Infrax came to the rescue. They provided a competitive quote, used quality UK materials, and the work was completed quickly. The new roof looks fantastic and has already weathered several heavy rains perfectly.',
-      author: 'Emma Roberts',
-      location: 'Beeston, NG9',
-      project: 'Roof Replacement'
-    },
-    {
-      rating: 5,
-      date: 'August 2025',
-      text: 'Full house refurbishment handled with care and expertise. The team respected our period features while modernizing the entire property. Communication was excellent throughout. Worth every penny!',
-      author: 'Mr. & Mrs. Patel',
-      location: 'Mapperley, NG3',
-      project: 'Full Home Refurbishment'
-    },
-    {
-      rating: 5,
       date: 'July 2025',
       text: 'Infrax converted our garage into a beautiful home office. The project included proper insulation for UK weather and all necessary electrics. They handled everything from planning permission to final touches. Brilliant service!',
       author: 'Michael Chen',
@@ -69,7 +37,7 @@ const Testimonials = () => {
             <div className="text-base sm:text-lg font-semibold text-gray-800">4.0 Average Rating</div>
           </div>
           <div className="text-center px-4">
-            <div className="text-3xl sm:text-4xl font-bold text-primary mb-2">10+</div>
+            <div className="text-3xl sm:text-4xl font-bold text-primary mb-2">2+</div>
             <div className="text-base sm:text-lg font-semibold text-gray-800">Projects Completed</div>
           </div>
           <div className="text-center px-4">
@@ -78,11 +46,11 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 gap-6 md:gap-8 mb-12 justify-items-center max-w-4xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-gray-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="bg-gray-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 w-full max-w-md"
             >
               <div className="flex justify-between items-start mb-4">
                 <div className="text-yellow-500 text-lg">{'⭐'.repeat(testimonial.rating)}</div>

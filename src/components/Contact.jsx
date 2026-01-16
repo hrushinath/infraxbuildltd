@@ -135,7 +135,7 @@ const Contact = () => {
                   <span className="text-xl sm:text-2xl">📞</span>
                   <div>
                     <strong className="text-sm sm:text-base text-gray-800 block mb-1">Phone:</strong>
-                    <p className="text-sm sm:text-base text-gray-700">07405 997 311</p>
+                    <p className="text-sm sm:text-base text-gray-700">+44 7884555486</p>
                   </div>
                 </div>
               </div>

@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-gray-400">
               <p>Mohanraviteja Hukumathirao</p>
               <p>Email: contact@infraxbuildltd.com</p>
-              <p>Phone: 07405 997 311</p>
+              <p>Phone: +44 7884555486</p>
               <p>Flat 35 High Point, Noel Street<br />Nottingham, NG7 6BL</p>
             </div>
           </div>
